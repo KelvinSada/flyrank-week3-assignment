@@ -1,0 +1,27 @@
+{
+  "status": "operational",
+  "service": "FlyRank web application",
+  "version": "0.1.0",
+  "environment": "preview",
+  "checkedAt": "2026-09-25T07:00:00.000Z",
+  "checks": [
+    {
+      "name": "Web application",
+      "status": "operational",
+      "latencyMs": 42,
+      "message": "Application is responding normally."
+    },
+    {
+      "name": "Search data service",
+      "status": "operational",
+      "latencyMs": 86,
+      "message": "Search data is available."
+    },
+    {
+      "name": "Reporting service",
+      "status": "operational",
+      "latencyMs": 64,
+      "message": "Report generation is available."
+    }
+  ]
+}
