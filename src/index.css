@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --fly-brand-50: #f0efff;
+  --fly-brand-100: #e7e4ff;
+  --fly-brand-500: #635bff;
+  --fly-brand-600: #5047e5;
+  --fly-brand-700: #4338ca;
+
+  --fly-success-50: #e9f8f1;
+  --fly-success-500: #159a69;
+  --fly-success-700: #178262;
+
+  --fly-ink: #182230;
+  --fly-muted: #718096;
+  --fly-subtle: #a0aec0;
+  --fly-border: #e8edf3;
+  --fly-surface: #ffffff;
+  --fly-background: #f7f9fc;
+
+  --fly-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --fly-font-display: Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --fly-radius-sm: 0.375rem;
+  --fly-radius-md: 0.5rem;
+  --fly-radius-lg: 0.625rem;
+  --fly-radius-xl: 1rem;
+
+  --fly-shadow-card: 0 1px 2px rgb(15 23 42 / 4%), 0 8px 24px rgb(15 23 42 / 4%);
+  --fly-shadow-popover: 0 16px 40px rgb(15 23 42 / 12%);
+}
+
+@theme {
+  --color-brand-50: var(--fly-brand-50);
+  --color-brand-100: var(--fly-brand-100);
+  --color-brand-500: var(--fly-brand-500);
+  --color-brand-600: var(--fly-brand-600);
+  --color-brand-700: var(--fly-brand-700);
+  --color-success-50: var(--fly-success-50);
+  --color-success-500: var(--fly-success-500);
+  --color-success-700: var(--fly-success-700);
+  --color-ink: var(--fly-ink);
+  --color-muted: var(--fly-muted);
+  --color-subtle: var(--fly-subtle);
+  --color-border: var(--fly-border);
+  --color-surface: var(--fly-surface);
+  --color-background: var(--fly-background);
+  --font-sans: var(--fly-font-sans);
+  --font-display: var(--fly-font-display);
+  --radius-sm: var(--fly-radius-sm);
+  --radius-md: var(--fly-radius-md);
+  --radius-lg: var(--fly-radius-lg);
+  --radius-xl: var(--fly-radius-xl);
+  --shadow-card: var(--fly-shadow-card);
+  --shadow-popover: var(--fly-shadow-popover);
+}
+
+:root {
+  font-family: var(--fly-font-sans);
+  color: var(--fly-ink);
+  background: var(--fly-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+select {
+  font: inherit;
+}
